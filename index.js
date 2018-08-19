@@ -1,13 +1,14 @@
 // Initialize Firebase
+// Initialize Firebase
 var config = {
-    apiKey: "AIzaSyC-yOp6S2I-N7HFArV5R8zerzL7WPUrFmY",
-    authDomain: "my-project-63915.firebaseapp.com",
-    databaseURL: "https://my-project-63915.firebaseio.com",
-    projectId: "my-project-63915",
-    storageBucket: "my-project-63915.appspot.com",
-    messagingSenderId: "85086645475"
-};
-firebase.initializeApp(config);
+    apiKey: "AIzaSyBTS-KHCoxy9ognaRyLclu2p7QTMFeaoxM",
+    authDomain: "employee-data-management-91ba8.firebaseapp.com",
+    databaseURL: "https://employee-data-management-91ba8.firebaseio.com",
+    projectId: "employee-data-management-91ba8",
+    storageBucket: "employee-data-management-91ba8.appspot.com",
+    messagingSenderId: "505929259974"
+  };
+  firebase.initializeApp(config);
 
 var database = firebase.database();
 
